@@ -24,11 +24,13 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### 运行、发布 uni-app
 
-```npm run dev:%PLATFORM%
-    npm run build:%PLATFORM%
+```
+npm run dev:%PLATFORM%
+npm run build:%PLATFORM%
 ```
 
-````app-plus app平台生成打包资源（支持npm run build:app-plus，可用于持续集成。不支持run，运行调试仍需在HBuilderX中操作）
+````
+app-plus app平台生成打包资源（支持npm run build:app-plus，可用于持续集成。不支持run，运行调试仍需在HBuilderX中操作）
 h5	H5
 mp-alipay	支付宝小程序
 mp-baidu	百度小程序
