@@ -1,5 +1,5 @@
 <template>
-  <view>11111</view>
+  <view>132</view>
 </template>
 
 <script>

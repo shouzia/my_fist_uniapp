@@ -1,9 +1,15 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/index/component_slot",
+			"path": "pages/index/tabbar",
 			"style": {
-				"navigationBarTitleText": "组件-插槽"
+				"navigationBarTitleText": "Tabbar"
+			}
+		},
+		{
+			"path": "pages/index/click",
+			"style": {
+				"navigationBarTitleText": "按钮"
 			}
 		}
 	],
@@ -12,5 +18,25 @@
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#2196f3",
+		"selectedColor": "#000000",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/click",
+				"iconPath": "static/icon/home.png",
+				"selectedIconPath": "static/icon/home_HL.png",
+				"text": "组件"
+			},
+			{
+				"pagePath": "pages/index/tabbar",
+				"iconPath": "static/icon/mine.png",
+				"selectedIconPath": "static/icon/mine_HL.png",
+				"text": "接口"
+			}
+		]
 	}
 }
