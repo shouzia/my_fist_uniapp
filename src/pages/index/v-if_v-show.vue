@@ -17,8 +17,8 @@ export default {
     return {
       person: [
         { title: 'shouzi', nickename: '瘦子' },
-        { title: '吴佳怡', nickename: '5+1' },
-        { title: '张嘉琪', nickename: 'zjq' },
+        { title: '5+1', nickename: '5+1' },
+        { title: 'www', nickename: 'wwww' },
       ],
     }
   },
